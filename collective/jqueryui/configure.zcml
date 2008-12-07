@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.jqueryui">
+
+    <browser:resourceDirectory
+        name="collective.jqueryui.themes"
+        directory="themes" />
+    <browser:resourceDirectory
+        name="collective.jqueryui.js"
+        directory="js" />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="JQuery UI (collective.jqueryui)"
+        directory="profiles/default"
+        description="JQuery UI implementation for Plone"
+        provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+</configure>

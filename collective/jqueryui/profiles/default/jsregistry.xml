@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.core.js" />
+  	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.accordion.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.autocomplete.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.colorpicker.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.datepicker.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.dialog.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.draggable.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.droppable.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.magnifier.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.progressbar.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.resizable.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.selectable.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.slider.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.sortable.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.spinner.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/ui.tabs.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.blind.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.bounce.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.clip.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.core.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.drop.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.explode.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.fold.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.highlight.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.pulsate.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.scale.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.shake.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.slide.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/effects.transfer.js" />
+
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-ar.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-bg.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-ca.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-cs.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-da.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-de.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-eo.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-es.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-fi.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-fr.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-he.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-hr.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-hu.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-hy.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-id.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-is.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-it.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-ja.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-ko.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-lt.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-lv.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-nl.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-no.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-pl.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-pt-BR.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-ro.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-ru.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-sk.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-sl.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-sv.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-th.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-tr.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-uk.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-zh-CN.js" />
+   	<javascript cacheable="True" compression="none" cookable="True"
+            	enabled="False" inline="False" expression=""
+              	id="++resource++collective.jqueryui.js/i18n/ui.datepicker-zh-TW.js" />
+
+</object>
