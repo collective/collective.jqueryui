@@ -5,11 +5,17 @@
     i18n_domain="collective.jqueryui">
 
     <browser:resourceDirectory
-        name="collective.jqueryui.themes"
-        directory="themes" />
+        name="collective.jqueryui.default-theme"
+        directory="themes/default" />
+    <browser:resourceDirectory
+        name="collective.jqueryui.flora-theme"
+        directory="themes/flora" />
     <browser:resourceDirectory
         name="collective.jqueryui.js"
         directory="js" />
+    <browser:resourceDirectory
+        name="collective.jqueryui.i18n"
+        directory="js/i18n" />
 
     <genericsetup:registerProfile
         name="default"

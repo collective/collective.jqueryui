@@ -2,12 +2,17 @@
 <object name="portal_css">
 
  <stylesheet title=""
-    id="++resource++collective.jqueryui.themes/default/ui.all.css"
+    id="++resource++collective.jqueryui.default-theme/ui.all.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="" expression=""/>
  <stylesheet title=""
-    id="++resource++collective.jqueryui.themes/default/ui.datepicker.css"
+    id="++resource++collective.jqueryui.flora-theme/flora.all.css"
+    media="screen" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="" expression=""/>
+ <stylesheet title=""
+    id="++resource++collective.jqueryui.default-theme/ui.datepicker.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="" expression=""/>
