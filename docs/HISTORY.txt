@@ -4,5 +4,10 @@ Changelog
 0.1 - Unreleased
 ----------------
 
-* Initial release
+* Added a script "make.py" to automatically modify jQueryUI where
+  needed.  This modifies paths to add the "++resource++" stanza, and
+  modifies JavaScripts to use "jQuery" instead of "$", which is
+  necessary for it to work with Plone.
 
+* Got rid of profile.  When you include parts of jQueryUI, you must
+  now do so explicitly, instead of simply turning on parts.
