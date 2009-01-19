@@ -8,11 +8,4 @@
         name="jquery"
         directory="jquery.ui" />
 
-    <genericsetup:registerProfile
-        name="default"
-        title="JQuery UI (collective.jqueryui)"
-        directory="profiles/default"
-        description="JQuery UI implementation for Plone"
-        provides="Products.GenericSetup.interfaces.EXTENSION" />
-
 </configure>
