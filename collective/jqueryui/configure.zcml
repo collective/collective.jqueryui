@@ -5,7 +5,7 @@
     i18n_domain="collective.jqueryui">
 
     <browser:resourceDirectory
-        name="jquery"
+        name="jquery.ui"
         directory="jquery.ui" />
 
 </configure>
