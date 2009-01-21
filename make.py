@@ -67,16 +67,5 @@ def main():
     shutil.copytree(join(jqueryui_src, 'ui'), join(jqueryui_dst, 'ui'))
     shutil.copytree(join(jqueryui_src, 'themes'), join(jqueryui_dst, 'themes'))
 
-    print "Doing replacements..."
-    # Replace "images/" in themes/base to point to the correct location:
-    replace(join(jqueryui_dst, 'themes', 'base', '*.css'),
-            'images/', '++resource++jqueryui/themes/base/images/')
-
-    # Replace "($)" and "$." in ui/*js to use "jQuery":
-    for d in (join(jqueryui_dst, 'ui', '*.js'),
-              join(jqueryui_dst, 'ui', 'i18n', '*.js')):
-        replace(d, '($)', '(jQuery)')
-        replace(d, '$.', 'jQuery.')
-
 if __name__ == '__main__':
     main()
