@@ -1,11 +1,18 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.jqueryui">
 
-    <browser:resourceDirectory
-        name="jquery.ui"
-        directory="jquery.ui" />
+    <browser:resourceDirectory name="jquery.ui" directory="jquery.ui" />
+    <cmf:registerDirectory name="jqueryui_overrides"/>
+
+    <genericsetup:registerProfile
+        name="default"
+        title="JQuery UI (collective.jqueryui)"
+        directory="profiles/default"
+        description=""
+        provides="Products.GenericSetup.interfaces.EXTENSION" />
 
 </configure>
