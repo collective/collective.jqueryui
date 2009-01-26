@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = open(os.path.join('collective', 'jqueryui', 'version.txt')).read()
+version = '1.6rc5'
 
 setup(name='collective.jqueryui',
       version=version,
