@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.6rc5'
+version = '1.7.1'
 
 setup(name='collective.jqueryui',
       version=version,
@@ -17,7 +17,7 @@ setup(name='collective.jqueryui',
       keywords='plone jquery jqueryui',
       author='Rok Garbas and contributors',
       author_email='rok.garbas@gmail.com',
-      url='http://',
+      url='http://pypi.python.org/pypi/collective.jqueryui',
       license='MIT',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective'],

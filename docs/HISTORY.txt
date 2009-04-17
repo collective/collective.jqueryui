@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.7.1 - unreleased
+------------------
+
+* use jqueryui 1.7.1
+
 1.6rc5 - initial release
 ------------------------
 
