@@ -25,7 +25,7 @@
  <li>ctrl+end - close and erase the date</li>
  <li>escape - close the datepicker without selection</li>
 </ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://docs.jquery.com/action/edit/UI/API/1.7.1/Datepicker?section=1" title="Edit section: Utility functions">edit</a>]</div><a name="Utility_functions"></a><h3 id="utility-functions">Utility functions</h3>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://docs.jquery.com/action/edit/UI/API/1.7.2/Datepicker?section=1" title="Edit section: Utility functions">edit</a>]</div><a name="Utility_functions"></a><h3 id="utility-functions">Utility functions</h3>
 <ul>
  <li><a href="http://docs.jquery.com/UI/Datepicker/setDefaults" title="UI/Datepicker/setDefaults">$.datepicker.setDefaults( settings )</a> - Set settings for all datepicker instances.</li>
  <li><a href="http://docs.jquery.com/UI/Datepicker/formatDate" title="UI/Datepicker/formatDate">$.datepicker.formatDate( format, date, settings )</a> - Format a date into a string value with a specified format.</li>
@@ -1784,11 +1784,11 @@ $('.selector').datepicker('option', 'yearRange', '2000:2010');</code></pre>
     <h3 class="event-name"><a href="#event-onChangeMonthYear">onChangeMonthYear</a></h3>
     <dl>
       <dt class="event-type-label"></dt>
-        <dd class="event-type">function(date)</dd>
+        <dd class="event-type">function(year, month, inst)</dd>
     </dl>
   </div>
   <div class="event-description">
-    <p>Allows you to define your own event when the datepicker moves to a new month and/or year. The function receives the selected year, month and the datepicker instance as parameters. <code>this</code> refers to the associated input field.</p>
+    <p>Allows you to define your own event when the datepicker moves to a new month and/or year. The function receives the selected year, month (1-12), and the datepicker instance as parameters. <code>this</code> refers to the associated input field.</p>
   </div>
   <div class="event-examples">
     <h4>Code examples</h4>
@@ -1799,7 +1799,7 @@ $('.selector').datepicker('option', 'yearRange', '2000:2010');</code></pre>
 </dt>
 <dd>
 <pre><code>$('.selector').datepicker({
-   onChangeMonthYear: function(date) { ... }
+   onChangeMonthYear: function(year, month, inst) { ... }
 });</code></pre>
 </dd>
 
@@ -1813,11 +1813,11 @@ $('.selector').datepicker('option', 'yearRange', '2000:2010');</code></pre>
     <h3 class="event-name"><a href="#event-onClose">onClose</a></h3>
     <dl>
       <dt class="event-type-label"></dt>
-        <dd class="event-type">function(date)</dd>
+        <dd class="event-type">function(dateText, inst)</dd>
     </dl>
   </div>
   <div class="event-description">
-    <p>Allows you to define your own event when the datepicker is closed, whether or not a date is selected. The function receives the selected date as a Date and the datepicker instance as parameters. <code>this</code> refers to the associated input field.</p>
+    <p>Allows you to define your own event when the datepicker is closed, whether or not a date is selected. The function receives the selected date as text and the datepicker instance as parameters. <code>this</code> refers to the associated input field.</p>
   </div>
   <div class="event-examples">
     <h4>Code examples</h4>
@@ -1828,7 +1828,7 @@ $('.selector').datepicker('option', 'yearRange', '2000:2010');</code></pre>
 </dt>
 <dd>
 <pre><code>$('.selector').datepicker({
-   onClose: function(date) { ... }
+   onClose: function(dateText, inst) { ... }
 });</code></pre>
 </dd>
 
@@ -1842,11 +1842,11 @@ $('.selector').datepicker('option', 'yearRange', '2000:2010');</code></pre>
     <h3 class="event-name"><a href="#event-onSelect">onSelect</a></h3>
     <dl>
       <dt class="event-type-label"></dt>
-        <dd class="event-type">function(dateText)</dd>
+        <dd class="event-type">function(dateText, inst)</dd>
     </dl>
   </div>
   <div class="event-description">
-    <p>Allows you to define your own event when the datepicker is selected. The function receives the selected date(s) as text and the datepicker instance as parameters. <code>this</code> refers to the associated input field.</p>
+    <p>Allows you to define your own event when the datepicker is selected. The function receives the selected date as text and the datepicker instance as parameters. <code>this</code> refers to the associated input field.</p>
   </div>
   <div class="event-examples">
     <h4>Code examples</h4>
@@ -1857,7 +1857,7 @@ $('.selector').datepicker('option', 'yearRange', '2000:2010');</code></pre>
 </dt>
 <dd>
 <pre><code>$('.selector').datepicker({
-   onSelect: function(dateText) { ... }
+   onSelect: function(dateText, inst) { ... }
 });</code></pre>
 </dd>
 
@@ -2141,10 +2141,10 @@ $('.selector').datepicker('option', 'yearRange', '2000:2010');</code></pre>
 </div>
 
 </p><!-- 
-Pre-expand include size: 82090 bytes
-Post-expand include size: 159207 bytes
-Template argument size: 100044 bytes
+Pre-expand include size: 82188 bytes
+Post-expand include size: 161480 bytes
+Template argument size: 101067 bytes
 Maximum: 2097152 bytes
 -->
 
-<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3180-1!1!0!!en!2 and timestamp 20090319021841 -->
+<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3346-1!1!0!!en!2 and timestamp 20090604112218 -->

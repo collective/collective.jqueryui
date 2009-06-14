@@ -1,17 +1,18 @@
 Changelog
 =========
 
-1.7.1 - unreleased
+1.7.2 - unreleased
 ------------------
 
+* some themes added: cupertino, pepper-grinder, redmond, smoothness, ui-lightness [garbas]
+* use jqueryui 1.7.2 and jquery 1.3.2 [garbas]
 * Make proper use of the Acquistion API and use the aq_parent function.
   [hannosch]
 
-* use jqueryui 1.7.1
 
 1.6rc5 - initial release
 ------------------------
 
-* initial release. 
-
+* initial release.
 * uses jqueryui 1.6rc5 which needs jquery1.3
+

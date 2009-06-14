@@ -804,7 +804,7 @@ $('.selector').sortable('option', 'opacity', 0.6);</code></pre>
   Initialize a sortable with the <code>placeholder</code> option specified.
 </dt>
 <dd>
-<pre><code>$('.selector').sortable({ placeholder: '.ui-state-highlight' });</code></pre>
+<pre><code>$('.selector').sortable({ placeholder: 'ui-state-highlight' });</code></pre>
 </dd>
 
     
@@ -815,7 +815,7 @@ $('.selector').sortable('option', 'opacity', 0.6);</code></pre>
 <pre><code>//getter
 var placeholder = $('.selector').sortable('option', 'placeholder');
 //setter
-$('.selector').sortable('option', 'placeholder', '.ui-state-highlight');</code></pre>
+$('.selector').sortable('option', 'placeholder', 'ui-state-highlight');</code></pre>
 </dd>
 
     </dl>
@@ -1004,7 +1004,13 @@ $('.selector').sortable('option', 'scrollSpeed', 40);</code></pre>
     </dl>
   </div>
   <div class="option-description">
-    <p>This is the way the reordering behaves during drag. Possible values: 'intersect', 'pointer'. In some setups, 'pointer' is more natural.</p>
+    <p>This is the way the reordering behaves during drag. Possible values: 'intersect', 'pointer'. In some setups, 'pointer' is more natural.
+</p>
+<ul>
+<li><b>intersect</b>: draggable overlaps the droppable at least 50%</li>
+<li><b>pointer</b>: mouse pointer overlaps the droppable</li>
+</ul>
+<p></p>
   </div>
   <div class="option-examples">
     <h4>Code examples</h4>
@@ -1803,10 +1809,10 @@ $('.selector').sortable('option', 'zIndex', 5);</code></pre>
 </div>
 
 </p><!-- 
-Pre-expand include size: 68784 bytes
-Post-expand include size: 121711 bytes
-Template argument size: 70621 bytes
+Pre-expand include size: 68721 bytes
+Post-expand include size: 120119 bytes
+Template argument size: 70108 bytes
 Maximum: 2097152 bytes
 -->
 
-<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3178-1!1!0!!en!2 and timestamp 20090319021839 -->
+<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3344-1!1!0!!en!2 and timestamp 20090604112215 -->

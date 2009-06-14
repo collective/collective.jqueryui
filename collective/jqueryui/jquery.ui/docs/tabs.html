@@ -28,7 +28,7 @@
 <li class="toclevel-2"><a href="#...select_a_tab_from_a_text_link_instead_of_clicking_a_tab_itself"><span class="tocnumber">3.3</span> <span class="toctext">...select a tab from a text link instead of clicking a tab itself</span></a></li>
 <li class="toclevel-2"><a href="#...prevent_switching_to_the_tab_on_click_depending_on_form_validation"><span class="tocnumber">3.4</span> <span class="toctext">...prevent switching to the tab on click depending on form validation</span></a></li>
 <li class="toclevel-2"><a href="#...immediately_select_a_just_added_tab"><span class="tocnumber">3.5</span> <span class="toctext">...immediately select a just added tab</span></a></li>
-<li class="toclevel-2"><a href="#...open_a_tab_in_a_new_window_instead"><span class="tocnumber">3.6</span> <span class="toctext">...open a tab in a new window instead</span></a></li>
+<li class="toclevel-2"><a href="#...follow_a_tab.27s_URL_instead_of_loading_its_content_via_ajax"><span class="tocnumber">3.6</span> <span class="toctext">...follow a tab's URL instead of loading its content via ajax</span></a></li>
 <li class="toclevel-2"><a href="#...prevent_a_FOUC_.28Flash_of_Unstyled_Content.29_before_tabs_are_initialized"><span class="tocnumber">3.7</span> <span class="toctext">...prevent a FOUC (Flash of Unstyled Content) before tabs are initialized</span></a></li>
 </ul>
 </li>
@@ -127,16 +127,22 @@ $('#my-text-link').click(function() { // bind click event to link
         $tabs.tabs('select', '#' + ui.panel.id);
     }
 });</pre>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://docs.jquery.com/action/edit/Template:UIAPIPlugin?section=10" title="Template:UIAPIPlugin">edit</a>]</div><a name="...open_a_tab_in_a_new_window_instead"></a><h3>...open a tab in a new window instead</h3>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://docs.jquery.com/action/edit/Template:UIAPIPlugin?section=10" title="Template:UIAPIPlugin">edit</a>]</div><a name="...follow_a_tab.27s_URL_instead_of_loading_its_content_via_ajax"></a><h3>...follow a tab's URL instead of loading its content via ajax</h3>
 <p>Note that opening a tab in a new window is unexpected, e.g.
 inconsistent behaviour exposing a usablity problem (<a href="http://www.useit.com/alertbox/tabs.html" class="external free" title="http://www.useit.com/alertbox/tabs.html">http://www.useit.com/alertbox/tabs.html</a>).
 </p>
 <pre>$('#example').tabs({
     select: function(event, ui) {
-        location.href = $.data(ui.tab, 'load.tabs');
-        return false;
+        var url = $.data(ui.tab, 'load.tabs');
+        if( url ) {
+            location.href = url;
+            return false;
+        }
+        return true;
     }
 });</pre>
+<p><br />
+</p>
 <div class="editsection" style="float:right;margin-left:5px;">[<a href="http://docs.jquery.com/action/edit/Template:UIAPIPlugin?section=11" title="Template:UIAPIPlugin">edit</a>]</div><a name="...prevent_a_FOUC_.28Flash_of_Unstyled_Content.29_before_tabs_are_initialized"></a><h3>...prevent a FOUC (Flash of Unstyled Content) before tabs are initialized</h3>
 <p>Add the necessary classes to hide an inactive tab panel to the HTML right away - note that this will <b>not</b> degrade gracefully with JavaScript being disabled:
 </p>
@@ -664,7 +670,7 @@ $('.selector').tabs('option', 'panelTemplate', '&lt;li&gt;&lt;/li&gt;');</code><
     </dl>
   </div>
   <div class="option-description">
-    <p>Zero-based index of the tab to be selected on initialization. To set all tabs to nselected pass -1 as value.</p>
+    <p>Zero-based index of the tab to be selected on initialization. To set all tabs to unselected pass -1 as value.</p>
   </div>
   <div class="option-examples">
     <h4>Code examples</h4>
@@ -1411,10 +1417,10 @@ $('.selector').tabs('option', 'tabTemplate', '&lt;div&gt;&lt;a href&#61;"#&#123;
 </div>
 
 </p><!-- 
-Pre-expand include size: 51589 bytes
-Post-expand include size: 90199 bytes
-Template argument size: 55853 bytes
+Pre-expand include size: 51548 bytes
+Post-expand include size: 88927 bytes
+Template argument size: 55315 bytes
 Maximum: 2097152 bytes
 -->
 
-<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3184-1!1!0!!en!2 and timestamp 20090319021844 -->
+<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3350-1!1!0!!en!2 and timestamp 20090604112223 -->

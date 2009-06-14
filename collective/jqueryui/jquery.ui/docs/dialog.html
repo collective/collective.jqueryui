@@ -13,8 +13,9 @@
     <div id="overview-main">
         A dialog is a floating window that contains a title bar and a content area. The dialog window can be moved, resized and closed with the 'x' icon by default.
 </p><p>If the content length exceeds the maximum height, a scrollbar will automatically appear.
+</p><p>A bottom button bar and semi-transparent modal overlay layer are common options that can be added.
 </p>
-A bottom button bar and semi-transparent modal overlay layer are common options that can be added.
+A call to <code>$(foo).dialog()</code> initializes a dialog. If you want a click to open a dialog, use <code>$(foo).dialog('open')</code>, but if the dialog hasn't been destroyed, the <code>$(foo).dialog()</code> init call is only required once, not on each click.
     </div>
     <div id="overview-dependencies">
         <h3>Dependencies</h3>
@@ -1491,7 +1492,7 @@ $('.selector').dialog('option', 'zIndex', 3999);</code></pre>
 </p>
     
   <h3>Sample markup with jQuery UI CSS Framework classes</h3>
-  &lt;div class=&quot;<strong>ui-dialog</strong> ui-widget ui-widget-content ui-corner-all undefined ui-draggable ui-resizable&quot;&gt;<br />
+  &lt;div class=&quot;<strong>ui-dialog</strong> ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable&quot;&gt;<br />
 &nbsp;&nbsp;&nbsp;&lt;div class=&quot;<strong>ui-dialog-titlebar</strong> ui-widget-header ui-corner-all ui-helper-clearfix&quot;&gt;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span id=&quot;<strong>ui-dialog-title-dialog</strong>&quot; class=&quot;ui-dialog-title&quot;&gt;Dialog title&lt;/span&gt;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class=&quot;<strong>ui-dialog-titlebar-close</strong> ui-corner-all&quot; href=&quot;#&quot;&gt;&lt;span class=&quot;ui-icon ui-icon-closethick&quot;&gt;close&lt;/span&gt;&lt;/a&gt;<br />
@@ -1511,9 +1512,9 @@ $('.selector').dialog('option', 'zIndex', 3999);</code></pre>
 
 </p><!-- 
 Pre-expand include size: 58797 bytes
-Post-expand include size: 99942 bytes
-Template argument size: 56593 bytes
+Post-expand include size: 100188 bytes
+Template argument size: 56839 bytes
 Maximum: 2097152 bytes
 -->
 
-<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3181-1!1!0!!en!2 and timestamp 20090319021842 -->
+<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3347-1!1!0!!en!2 and timestamp 20090604112219 -->
