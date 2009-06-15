@@ -5,14 +5,9 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.jqueryui">
 
-    <browser:resourceDirectory name="jquery.ui" directory="jquery.ui" />
-    <cmf:registerDirectory name="jqueryui_overrides"/>
-
-    <genericsetup:registerProfile
-        name="default"
-        title="JQuery UI (collective.jqueryui)"
-        directory="profiles/default"
-        description=""
-        provides="Products.GenericSetup.interfaces.EXTENSION" />
+    <include package="collective.js.jquery" />
+    <browser:resourceDirectory
+        name="jquery.ui"
+        directory="jquery.ui" />
 
 </configure>

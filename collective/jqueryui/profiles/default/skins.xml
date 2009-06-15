@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<object name="portal_skins">
-    <object name="collective.jqueryui"
-            meta_type="Filesystem Directory View"
-            directory="collective.jqueryui:skins/jqueryui_overrides" />
-    <skin-path name="*">
-        <layer name="collective.jqueryui" insert-after="custom" />
-    </skin-path> 
-</object>
