@@ -1,5 +1,4 @@
 Introduction
 ============
 
-JQueryUI implementation for plone3
-
+JQueryUI integration for Plone
