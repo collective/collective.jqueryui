@@ -1,13 +1,12 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
-    xmlns:cmf="http://namespaces.zope.org/cmf"
     xmlns:browser="http://namespaces.zope.org/browser"
-    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.jqueryui">
 
-    <include package="collective.js.jquery" />
-    <browser:resourceDirectory
-        name="jquery.ui"
-        directory="jquery.ui" />
+  <include package="collective.js.jquery" />
+  <browser:resourceDirectory
+      name="jquery.ui"
+      directory="jquery.ui"
+      />
 
 </configure>

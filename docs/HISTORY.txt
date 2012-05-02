@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.8.20 - unreleased
+-------------------
+
+* Update to jQuery UI 1.8.20.
+  [thet]
+
 1.7.2 - unreleased
 ------------------
 

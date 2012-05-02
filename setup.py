@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.7.2'
+version = '1.8.20'
 
 setup(name='collective.jqueryui',
       version=version,
@@ -25,9 +25,11 @@ setup(name='collective.jqueryui',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.jquery>1.7'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
-      # -*- Entry points: -*-
+          [z3c.autoinclude.plugin]
+          target = plone
       """,
       )
