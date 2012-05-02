@@ -26,7 +26,6 @@ setup(name='collective.jqueryui',
       install_requires=[
           'setuptools',
           'plone.app.jquery>1.7'
-          # -*- Extra requirements: -*-
       ],
       entry_points="""
           [z3c.autoinclude.plugin]

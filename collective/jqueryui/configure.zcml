@@ -3,7 +3,7 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="collective.jqueryui">
 
-  <include package="collective.js.jquery" />
+  <include package="plone.app.jquery" />
   <browser:resourceDirectory
       name="jquery.ui"
       directory="jquery.ui"
